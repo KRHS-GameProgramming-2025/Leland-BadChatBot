@@ -17,7 +17,7 @@ elif color == "Red":
 else:
     print (dont_like + seperator + color)
     
-animal = input("what is your favrite animal ")
+animal = input("what is your favorite animal ")
 if animal == "cats":
     print ("I don't like Cats")
 elif animal == "Cats":
@@ -68,10 +68,10 @@ elif stage_1 == "Left":
     print ("you find nothing")
     
 elif stage_1.lower() == "forwards":
-    stage_1_e = input("you have found a goblin you must attack it ")
-    if stage_1_e == "hit":
+    stage_1 = input("you have found a goblin you must attack it ")
+    if stage_1 == "hit":
         print ("you have defeted the goblin")
-elif stage_1_e == "Hit":
+elif stage_1 == "Hit":
     print ("you have defeted the goblin")
     
 elif stage_1 == "right":
@@ -87,10 +87,10 @@ elif stage_2 == "Forwards":
     print ("you find nothing")
     
 elif stage_2.lower() == "left":
-    stage_2_e = input("you have found a goblin you must attack it ")
-    if stage_2_e == "hit":
+    stage_2 = input("you have found a goblin you must attack it ")
+    if stage_2 == "hit":
         print ("you have defeted the goblin")
-elif stage_2_e == "Hit":
+elif stage_2 == "Hit":
     print ("you have defeted the goblin")
     
 elif stage_2 == "right":
@@ -106,10 +106,10 @@ elif stage_3 == "Forwards":
     print ("you find nothing")
     
 elif stage_3.lower() == "right":
-    stage_3_e = input("you have found a goblin you must attack it ")
-    if stage_3_e == "hit":
+    stage_3 = input("you have found a goblin you must attack it ")
+    if stage_3 == "hit":
         print ("you have defeted the goblin")
-elif stage_3_e == "Hit":
+elif stage_3 == "Hit":
     print ("you have defeted the goblin")
     
 elif stage_3 == "left":
