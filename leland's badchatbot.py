@@ -68,7 +68,6 @@ elif stage_1 == "Left":
     print ("you find nothing")
     
 elif stage_1.lower() == "forwards":
-    print ("you find a goblin")
     stage_1_e = input("you have found a goblin you must attack it ")
     if stage_1_e == "hit":
         print ("you have defeted the goblin")
@@ -88,11 +87,10 @@ elif stage_2 == "Forwards":
     print ("you find nothing")
     
 elif stage_2.lower() == "left":
-    print ("you find a goblin")
     stage_2_e = input("you have found a goblin you must attack it ")
     if stage_2_e == "hit":
         print ("you have defeted the goblin")
-elif stage_2_e == "Left":
+elif stage_2_e == "Hit":
     print ("you have defeted the goblin")
     
 elif stage_2 == "right":
@@ -100,3 +98,23 @@ elif stage_2 == "right":
 elif stage_2 == "Right":
     print ("you find nothing")
 
+
+stage_3 = input("do you want to go left right or forwards ")
+if stage_3 == "forwards":
+    print ("you find nothing")
+elif stage_3 == "Forwards":
+    print ("you find nothing")
+    
+elif stage_3.lower() == "right":
+    stage_3_e = input("you have found a goblin you must attack it ")
+    if stage_3_e == "hit":
+        print ("you have defeted the goblin")
+elif stage_3_e == "Hit":
+    print ("you have defeted the goblin")
+    
+elif stage_3 == "left":
+    print ("you find nothing")
+elif stage_3 == "Left":
+    print ("you find nothing")
+    
+print ("you saved the frog")
